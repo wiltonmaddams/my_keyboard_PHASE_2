@@ -1,0 +1,50 @@
+// Place all the styles related to the keyboards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#keyboard_selector {
+  display: inline;
+}
+
+.whitekey {
+  position: relative;
+  top: 20px;
+  width: 110px;
+  height: 750px;
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+
+#keyboard_location {
+  margin: auto;
+}
+
+.blackkey {
+  position: relative;
+  width: 75px;
+  bottom: 215px;
+  z-index: 1;
+  background: black;
+  color: white
+}
+
+.cool-border {
+  background-color: rgba(129, 174, 233, 174);
+
+}
+
+input[type=range] {
+  width: 90%;
+}
+
+select {
+  width: 90%;
+}
+
+p {
+  font-size: 1.250em;
+  text-align: center;
+}
+
